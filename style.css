@@ -1,0 +1,75 @@
+/*
+Theme Name: fullmotion
+Theme URI: https://sabur.xyz/themes
+Author: the fullmotion team
+Author URI: https://sabur.xyz/
+Description: fullmotion brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 1.0
+License: GNU General Public License v1 or later
+Text Domain: fullmotion
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+ 
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#3841b0;
+    font-family:font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    color: #fff;
+}
+#footer .norm_row.sfsi_wDiv {
+    width: 100% !important;
+    /* display: inline-block; */
+    position: relative !important;
+}
+#footer #sfsi_holder {
+    width: 0px !important;
+}
+#footer ul {
+    margin: 0px !important;
+}
+
+.service-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.service-section h2 {
+    font-size: 62px;
+    margin: 0;
+    position: relative;
+    margin-bottom: 22px;
+}
+
+.service-section p {
+    margin: 0;
+}
+
+.service-section h2:before {
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+    width: 190px;
+    height: 5px;
+    content: "";
+    background: #fff;
+    border-radius: 5px;
+}
+
+.service-section h2:after {
+    position: absolute;
+    left: 48%;
+    bottom: 0;
+    width: 80px;
+    height: 5px;
+    background: red;
+    content: "";
+}
